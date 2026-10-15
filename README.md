@@ -12,13 +12,21 @@ React 19 · TypeScript 5.7 · Vite 8 · Tailwind CSS 4 · Supabase (Auth + Postg
 ## Estrutura dos componentes
 src/features/
 ├── shared/types.ts # OperationResult<T>
+
 ├── users/ # ► ComponenteUsuario
+
 │ ├── types.ts # IUsuario e entradas
+
 │ ├── services/userService.ts # implementação de IUsuario
+
 │ └── components/UserPanel.tsx # UI de cadastro/login/dados bancários
+
 └── contracts/ # ► ComponenteContratos
+
 ├── types.ts # IContratos e entradas
+
 ├── services/contractService.ts # implementação de IContratos
+
 └── components/ContractsPanel.tsx
 
 
