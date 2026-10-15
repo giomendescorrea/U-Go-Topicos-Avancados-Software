@@ -62,10 +62,14 @@ src/features/
 **Dependência entre os componentes:** `IContratos` **requer** `IUsuario`. Antes de gerar a adesão, `contractService.gerarContratoAdesao` chama `userService.obterUsuarioAtual()` para confirmar que o contratante está autenticado. Sem isso, a operação falha com "É necessário estar autenticado para gerar o contrato."
 
 ## Como os componentes se comunicam
-ComponenteUsuario ──(IUsuario)──▶ ComponenteContratos
+ComponenteUsuario  ──(IUsuario) ──▶ ComponenteContratos
+
 userService contractService
+
 │
+
 ▼
+
 Contrato ativo + PDF
 
 ## Testes realizados
