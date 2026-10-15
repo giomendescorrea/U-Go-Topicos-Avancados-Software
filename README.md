@@ -68,7 +68,7 @@ userService contractService
 ▼
 Contrato ativo + PDF
 
-Testes realizados
+## Testes realizados
 Os testes automatizados cobrem o fluxo principal dos dois componentes:
 
 ComponenteUsuario: cadastro e login funcionando — criação de usuário no Auth, autenticação com credenciais válidas, rejeição de credenciais inválidas e validação de dados bancários.
